@@ -12,4 +12,18 @@ sans-serif; */
     box-sizing: border-box;
 }
 
-:root {}
+:root {
+    /* Colors  */
+    --text-color: #333333;
+    --text-color-2: #FFAD5A;
+    --heading-mision: #13103A;
+    --mission-bg: rgba(79, 157, 166, 0.1);
+    --vission-bg: rgba(255, 89, 89, 0.1);
+    --btn-color: #FF5959;
+    /* Fonts size  */
+    --big-font: 60px;
+    --heading: 48px;
+    --medium: 24px;
+    --paragraph: 18px;
+    --sm-paragraph: 16px;
+}
