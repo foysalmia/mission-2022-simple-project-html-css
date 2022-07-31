@@ -5,11 +5,13 @@ cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 /* font-family: 'Manrope',
 sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
@@ -26,4 +28,36 @@ sans-serif; */
     --medium: 24px;
     --paragraph: 18px;
     --sm-paragraph: 16px;
+}
+
+header {
+    display: flex;
+}
+
+.hero-text {
+    font-family: 'Yeseva One', cursive;
+    font-size: var(--big-font);
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.hero-text .marked {
+    display: inline-block;
+}
+
+.marked {
+    color: var(--text-color-2);
+}
+
+header .model img {
+    width: 80%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+p {
+    color: var(--text-color);
+    font-size: var(--paragraph);
 }
